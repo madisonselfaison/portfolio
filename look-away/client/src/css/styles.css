@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: #3339;
+
+}
+.auth-container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+}
+
+.auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+}
+
+.auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.public {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+
+}
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile > h1 {
+    margin: 8px;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .profile > h3 {
+    margin: 16px 0;
+    text-decoration: underline;
+  }
+  
+  .profile > form {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    border: 1px solid #3339;
+    background-color: #aaa9;
+    padding: 16px;
+    border-radius: 5px
+  }
+  
+  .profile > form > input,
+  .profile > form > button {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px
+  } 
+  
+  .editbtn {
+    width: 100px;
+  }
+
+  .delbtn{
+    width: 100px;
+  }
+
+ .scenes {
+   padding: 15px;
+   margin-top: 9px;
+   margin-bottom: 9px;
+   width: auto;
+   box-shadow: 0 0 3px rgba(0,0,0,0.5);
+ }
+
+.profile-title {
+    text-align: center;
+    padding-top: 28px;
+}
+
+.saved-scenes {
+    align-items: center;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px;
+}
+
